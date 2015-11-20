@@ -3,19 +3,19 @@
 
 ## Formato Numerico
 
-## mask(numbers[, format])
+### mask(numbers[, format])
 
-### numbers
+#### numbers
 Tipo: `number`
 
-### format
+#### format
 Tipo: `string` <br />
 Por defecto: `''`
 
 Devuelve un numero entero formateado segun la mascara especificada. <br />
 La mascara determina el orden del numero(tambien inverso) y, la cantidad de digitos a devolver.
 
-#### Uso
+##### Uso
 Mascara de 7 digitos en orden normal.
 
 ![](./img/normal.png)
