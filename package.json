@@ -1,0 +1,16 @@
+{
+  "name": "fungsheets",
+  "version": "1.0.0",
+  "description": "> Conjunto de funciones comunes para Google Spreadsheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "babel": {
+    "presets": ["es2015"]
+  }
+}

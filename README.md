@@ -1,24 +1,27 @@
-# gs4gsheets
->Conjunto de funciones comunes para Google Spreadsheets
+# fn-googlesheets
+> Nuestras funciones para Google Spreadsheets
 
-## Numbers
+## Formato Numerico
 
-### mask(number, format)
+## mask(numbers[, format])
 
-##### number
+### numbers
 Tipo: `number`
 
-##### pattern
+### format
 Tipo: `string` <br />
 Por defecto: `''`
 
-Devuelve un numero entero formateado segun una mascara especificada. La mascara determina el flujo, u orden, del numero(normal/inverso) y la cantidad de digitos a devolver.
+Devuelve un numero entero formateado segun la mascara especificada. <br />
+La mascara determina el orden del numero(tambien inverso) y, la cantidad de digitos a devolver.
 
-## Uso
-Mascara de 7 digitos en orden normal
+#### Uso
+Mascara de 7 digitos en orden normal.
 
-![](./Images/normal.png)
+![](./img/normal.png)
 
-Mascara de 7 digitos en orden inverso
+Mascara de 7 digitos en orden inverso.
 
-![](./Images/reversed.png)
+![](./img/reversed.png)
+
+MIT © 2015
